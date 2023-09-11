@@ -31,3 +31,5 @@ function Portfolio() {
     </div>
   );
 }
+
+export default Portfolio
