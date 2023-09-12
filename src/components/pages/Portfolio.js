@@ -19,7 +19,7 @@ function Portfolio() {
             <div className="project-desc">
               <h4>Note Taker</h4>
               <p>
-                I Dont Study is a note taking application that allows the user
+                I Dont Study is a note taking application that uses Node.js and Express that allows the user
                 to add and delete notes to a database. Everything you write and
                 save or delete updates the database that is being used by the
                 server.
