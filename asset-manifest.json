@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/core-meme/static/css/main.b3c60415.css",
+    "main.js": "/core-meme/static/js/main.d34434a9.js",
+    "static/media/campgrounds.png": "/core-meme/static/media/campgrounds.dc225215e89e8f6cb663.png",
+    "static/media/music-shoopa.png": "/core-meme/static/media/music-shoopa.08d36f94e4d7483a0d04.png",
+    "static/media/weather app.png": "/core-meme/static/media/weather app.d02853ed0a9fd1de0d0a.png",
+    "static/media/Cullen_Knott_Resume.pdf": "/core-meme/static/media/Cullen_Knott_Resume.d3df3928e8124f8ec6dc.pdf",
+    "static/media/clogger.png": "/core-meme/static/media/clogger.9f66281e900588a3b830.png",
+    "static/media/01-planner.png": "/core-meme/static/media/01-planner.3c0b6012e4383630e990.png",
+    "static/media/JATE.png": "/core-meme/static/media/JATE.8c9c9aa00eac2edd2f62.png",
+    "static/media/note-taker.png": "/core-meme/static/media/note-taker.897a4f11bb802c6eac09.png",
+    "index.html": "/core-meme/index.html",
+    "main.b3c60415.css.map": "/core-meme/static/css/main.b3c60415.css.map",
+    "main.d34434a9.js.map": "/core-meme/static/js/main.d34434a9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3c60415.css",
+    "static/js/main.d34434a9.js"
+  ]
+}
