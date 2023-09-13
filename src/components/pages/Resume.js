@@ -15,7 +15,7 @@ function Resume() {
             <div className="flex-row">
                 <div className="download-info">
                     <div className="download">
-                        <a href={MyResume} className="logo" download>
+                        <a href={MyResume} className="download-logo" download>
                             <AiOutlineDownload />
                         </a>
                     </div>
