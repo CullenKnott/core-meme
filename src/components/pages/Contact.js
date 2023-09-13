@@ -45,55 +45,59 @@ function Contact() {
 
   return (
     <section id="myInformation" className="contact">
-      {/*--------------contact form--------------- */}
-      <div className="contact-form">
-        <h3>Get in Touch!</h3>
-        <form className="form" onSubmit={handleFormSubmit}>
-          {/*name form */}
-          <div>
-            <label htmlFor="contact-name">name</label>
-            <input
-              value={username}
-              name="username"
-              onChange={handleChangeInput}
-              type="text"
-              id="contact-name"
-              placeholder="Your name here"
-              onBlur={handleEmptyInput}
-            />
-          </div>
-          <div>
-            <label htmlFor="contact-email">email</label>
-            <input
-              value={email}
-              name="email"
-              onChange={handleChangeInput}
-              type="text"
-              id="contact-email"
-              placeholder="Your email here"
-              onBlur={handleEmptyInput}
-            />
-          </div>
-          <div>
-            <label htmlFor="contact-message">message</label>
-            <input
-              value={message}
-              name="message"
-              onChange={handleChangeInput}
-              type="text"
-              id="contact-message"
-              placeholder="Enter message here"
-              rows="5"
-              onBlur={handleEmptyInput}
-            />
-          </div>
-          {errMessage && (
+      <div className="contact-info">
+        {/*--------------contact form--------------- */}
+        <div className="contact-form">
+          <h3>Get in Touch!</h3>
+          <form className="form" onSubmit={handleFormSubmit}>
+            {/*name form */}
             <div>
-              <p className="error-message">{errMessage}</p>
+              <label htmlFor="contact-name">name</label>
+              <input
+                value={username}
+                name="username"
+                onChange={handleChangeInput}
+                type="text"
+                id="contact-name"
+                placeholder="Your name here"
+                onBlur={handleEmptyInput}
+              />
             </div>
-          )}
-          <button type="submit" className="btn">Submit</button>
-        </form>
+            <div>
+              <label htmlFor="contact-email">email</label>
+              <input
+                value={email}
+                name="email"
+                onChange={handleChangeInput}
+                type="text"
+                id="contact-email"
+                placeholder="Your email here"
+                onBlur={handleEmptyInput}
+              />
+            </div>
+            <div>
+              <label htmlFor="contact-message">message</label>
+              <input
+                value={message}
+                name="message"
+                onChange={handleChangeInput}
+                type="text"
+                rows="5"
+                id="contact-message"
+                placeholder="Enter message here"
+                onBlur={handleEmptyInput}
+              />
+            </div>
+            <button type="submit" className="btn">
+              Submit
+            </button>
+            {errMessage && (
+              <div>
+                <p className="error-message">{errMessage}</p>
+              </div>
+            )}
+          </form>
+        </div>
       </div>
     </section>
   );
