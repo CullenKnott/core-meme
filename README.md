@@ -26,6 +26,7 @@ Personal portoflio built using React. A place to display all of my work and proj
 
 No installation is requires as the application is a live website. You can access the live site through the deployment link, here:
 
+https://cullenknott.github.io/core-meme/#about
 
 ## Usage
 ![image](./src/assets/images/portfolio1.png)
