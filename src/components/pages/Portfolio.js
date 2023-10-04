@@ -6,6 +6,7 @@ import music from "../../assets/images/music-shoopa.png";
 import note from "../../assets/images/note-taker.png";
 import weather from "../../assets/images/weather app.png";
 import clogger from "../../assets/images/clogger.png";
+import scene from "../../assets/images/scene.png";
 
 function Portfolio() {
   return (
@@ -13,6 +14,34 @@ function Portfolio() {
       <section id="work" className="jobs">
         <div className="flex-row">
           <h2 className="section-title secondary-border">Work</h2>
+        </div>
+
+        <div className="job">
+          <div className="job-info">
+            <div className="job-img">
+              <a href="https://project-3-left-on-scene-ace080aff4c2.herokuapp.com/">
+                {" "}
+                <img
+                  src={scene}
+                  className="my-2"
+                  style={{ width: "100%" }}
+                  alt="Music-Shoopa"
+                />
+              </a>
+            </div>
+            <div className="job-text">
+              <h4>Left on Scene</h4>
+              <p>
+                Left on Scene is a Fullstack MERN project that utilizes MongoDB,
+                Express, React, and Node, as well as GraphQl as the API to allow
+                the front-end to communicate with the back-end. The application itself is
+                a user-friendly platform designed for movie enthusiasts.
+                Discover and explore an extensive database of films across
+                various genres. Users can search for their favorite movies, read
+                insightful reviews, and contribute their own critiques.
+              </p>
+            </div>
+          </div>
         </div>
 
         <div className="job">
