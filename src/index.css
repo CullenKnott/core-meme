@@ -341,6 +341,30 @@ form {
     font-size: 18px;
 }
 
+.buttons {
+    text-align: center;
+}
+
+.links {
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 10px 5px 10px;
+    background-color: white;
+    margin: 10px;
+    box-shadow: 2px 2px 0 0 #5B6B75;
+    border-radius: 3px;
+    transition: box-shadow 0.1s ease-in-out;
+}
+
+.links:hover {
+    box-shadow: 2px 2px 4px 2px #5B6B75;
+}
+
+.links a {
+    text-decoration: none;
+    color: var(--tertiary-color);
+}
+
 footer {
     font-weight: bold;
     width: 100%;
@@ -366,8 +390,9 @@ footer p ul a li {
 }
 
 footer p ul a li:hover {
+    font-size: 45px;
     color: var(--blue);
-    transition: all 0.5s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 
